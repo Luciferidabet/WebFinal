@@ -36,8 +36,6 @@
 </head>
 
 <body>
-    <form action="/ManagerAccount" method="post"></form>
-
 	<div class="wrap">
 		<div class="container">
 			<div class="row justify-content-between">
@@ -266,9 +264,7 @@
                                 </td>
                                 <td>${o.account_id}</td>
                                 <td>${o.email}</td>
-                                <td>
-                                    <td>${o.address}</td>
-                                </td>
+                                <td>${o.address}</td>
                                 <td>$${o.userName}</td>
                                 <td>${o.password}</td>
                                 <td>
