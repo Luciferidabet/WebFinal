@@ -25,12 +25,12 @@ import Shoes.util.MailUtilLocal;
 public class Checkout extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String id = request.getParameter("pid");
+        // String id = request.getParameter("pid");
 
         DAO dao = new DAO();
         List<Account> listA = dao.getAllUser();
-        Product p = dao.getProductByID(id);
-        request.setAttribute("product", p);
+        // Product p = dao.getProductByID(id);
+        // request.setAttribute("product", p);
         request.setAttribute("ListA", listA);
         request.getRequestDispatcher("checkout.jsp").forward(request, response);
         

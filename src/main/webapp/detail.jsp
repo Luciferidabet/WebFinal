@@ -214,7 +214,7 @@
                     </c:if>
 
                     <c:if test="${sessionScope.acc != null}">
-                        <a href="Checkout?pid=totaldetail"><button type="button" class="modal-btn btn-primary order">Checkout</button></a>
+                        <a href="checkout.jsp"><button type="button" class="modal-btn btn-primary order">Checkout</button></a>
                     </c:if>
               </div>
             </div>
