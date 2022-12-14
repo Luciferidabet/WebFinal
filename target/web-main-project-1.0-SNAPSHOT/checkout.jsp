@@ -108,7 +108,7 @@
                             </div>
                         </div>
                         <hr class="mb-4">
-                        <button class="btn btn-primary btn-lg btn-block" type="submit" name="btnDatHang">Order</button>
+                        <a href="index.jsp"></a><button class="btn btn-primary btn-lg btn-block" type="submit" name="btnDatHang">Order</button>
                    <br><br>
                     </div>
                 </div>
