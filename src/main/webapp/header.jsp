@@ -49,7 +49,7 @@
         
           <div class=" right-content mg-left">
             <a href="./user-profile.jsp" class="avatar">
-                <img src="images/img/icon-img/account.png" alt="" class="avatar-img">
+                <img src="images/test-image.jpg" alt="" class="avatar-img">
             </a>
 				</div>
 

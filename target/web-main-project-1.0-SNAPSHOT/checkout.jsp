@@ -16,7 +16,7 @@
     
     <main role="main">
         <div class="container mt-4">
-            <form action="checkout" name="frmthanhtoan" method="post">
+            <form action="/Checkout" name="frmthanhtoan" method="post">
                 <input type="hidden" name="checkoutName" value="${username}">
 
                 <div class="py-5 text-center">
@@ -31,6 +31,7 @@
                             <span class="text-muted">Cart</span>
                             <span class="badge badge-secondary badge-pill">2</span>
                         </h4>
+                        
                         <ul class="list-group mb-3">
                             <input type="hidden" name="sanphamgiohang[1][sp_ma]" value="2">
                             <input type="hidden" name="sanphamgiohang[1][gia]" value="39$">
@@ -38,10 +39,10 @@
 
                             <li class="list-group-item d-flex justify-content-between lh-condensed">
                                 <div>
-                                    <h6 class="my-0">Name Shoes</h6>
-                                    <small class="text-muted">39$ x 2</small>
+                                    <h6 class="my-0">Price</h6>
+                                    <small class="text-muted">100$ x 1</small>
                                 </div>
-                                <span class="text-muted">78$</span>
+                                <span class="text-muted">100 $</span>
                             </li>
                             <input type="hidden" name="sanphamgiohang[2][sp_ma]" value="1">
                             <input type="hidden" name="sanphamgiohang[2][gia]" value="39$">
@@ -49,10 +50,10 @@
 
                             <li class="list-group-item d-flex justify-content-between lh-condensed">
                                 <div>
-                                    <h6 class="my-0">Name Shoes</h6>
-                                    <small class="text-muted">39$ x 1</small>
+                                    <h6 class="my-0">Price</h6>
+                                    <small class="text-muted">700 $ x 2</small>
                                 </div>
-                                <span class="text-muted">39$</span>
+                                <span class="text-muted">1400 $</span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between">
                                 <span>Shipping</span>
@@ -60,7 +61,7 @@
                             </li>
                             <li class="list-group-item d-flex justify-content-between">
                                 <span>Total</span>
-                                <strong>122$</strong>
+                                <strong>1500 $</strong>
                             </li>
                         </ul>
 

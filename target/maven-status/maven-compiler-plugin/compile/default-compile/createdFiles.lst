@@ -17,6 +17,7 @@ Factory\CategoryFactory.class
 Shoes\util\MailUtilLocal.class
 Shoes\control\AddProduct.class
 Shoes\entity\Category.class
+Shoes\control\DetailControl.class
 Shoes\control\SubscribeMail.class
 template\HomePage.class
 Factory\CategoryType.class
@@ -29,6 +30,7 @@ template\TemplateMethodPattern.class
 Factory\Category.class
 Shoes\control\SignUpControl.class
 template\BlogPage.class
+Shoes\control\Checkout.class
 Factory\Nike.class
 Shoes\control\MainControl.class
 Shoes\util\MailUtilLocal$1.class

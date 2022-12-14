@@ -21,7 +21,7 @@ import Shoes.util.MailUtilLocal;
  *
  * @author ADMIN
  */
-@WebServlet(name = "CheckoutMail", urlPatterns = {"/checkout"})
+@WebServlet(name = "CheckoutMail", urlPatterns = {"/checkoutMail"})
 public class CheckoutMail extends HttpServlet {
 
     @Override
@@ -67,6 +67,9 @@ public class CheckoutMail extends HttpServlet {
         
     }
 
-    
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        doPost(request, response);
+    }
 
 }
